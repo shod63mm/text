@@ -824,7 +824,7 @@
     </div>
 </div>
 
-<!-- Ваш файл Blade -->
+{{-- Привет --}}
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 
