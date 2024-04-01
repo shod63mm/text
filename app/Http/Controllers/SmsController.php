@@ -31,7 +31,7 @@ class SmsController extends Controller
             "login" => $config['login'],
         ];
 
-        $response = Http::get($config['server'], $params);
+        $response = Http::timeout(30)->connectTimeout(10)->get($config['server'], $params);
 
         if ($response->successful()) {
             $data = $response->json();

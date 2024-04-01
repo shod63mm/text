@@ -15,7 +15,7 @@
               <div class="p-4 sm:p-7">
                 <div class="text-center">
                   <img src="{{ asset('images/chistiydom-zayavka.png') }}" alt="" class="w-[70%] mx-auto">
-                  <h1 class="mt-4 text-center text-3xl font-bold text-blue-700">Войти на панел управления</h1>
+                  <h1 class="mt-4 text-center text-3xl font-bold text-blue-700">Войти на панел управления!</h1>
                 </div>
       
                 <div class="mt-5">
